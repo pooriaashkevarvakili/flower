@@ -1,60 +1,64 @@
 <template>
-    <div class="splash-screen">
-        <div class="spinner-wrapper">
-            <div class="spinner"></div>
+    <div class="loader-wrapper flex flex-col items-center justify-center">
+        <div class="loader mt-60">
+            <div></div>
+            <div></div>
+            <div></div>
+            <div></div>
+
         </div>
+        <div class="text-xl mt-3">
+            به سایت گل خوش اومدید
+        </div>
+
+
     </div>
 </template>
   
 <style scoped>
-.splash-screen {
-    background: #f2f0ee;
-    width: 100vw;
-    height: 100vh;
-    position: fixed;
-    z-index: 50;
+.loader-wrapper {
+    text-align: center;
 }
 
-.spinner-wrapper {
-    position: absolute;
-    left: 50%;
-    top: 50%;
-
-    transform: translate(-50%, -50%);
-}
-
-.spinner {
+.loader {
+    display: inline-block;
+    position: relative;
     width: 80px;
     height: 80px;
-    margin: 100px auto;
-    background-color: #e45447;
-
-    border-radius: 100%;
-    -webkit-animation: sk-scaleout 1s infinite ease-in-out;
-    animation: sk-scaleout 1s infinite ease-in-out;
 }
 
-@-webkit-keyframes sk-scaleout {
+.loader div {
+    box-sizing: border-box;
+    display: block;
+    position: absolute;
+    width: 64px;
+    height: 64px;
+    margin: 8px;
+    border: 8px solid #6916a0;
+    border-radius: 50%;
+    animation: loader 1.2s cubic-bezier(0.5, 0, 0.5, 1) infinite;
+    border-color: #7c7272 transparent transparent transparent;
+}
+
+.loader div:nth-child(1) {
+    animation-delay: -0.45s;
+}
+
+.loader div:nth-child(2) {
+    animation-delay: -0.3s;
+}
+
+.loader div:nth-child(3) {
+    animation-delay: -0.15s;
+}
+
+@keyframes loader {
     0% {
-        -webkit-transform: scale(0);
+        transform: rotate(0deg);
     }
 
     100% {
-        -webkit-transform: scale(1);
-        opacity: 0;
-    }
-}
-
-@keyframes sk-scaleout {
-    0% {
-        -webkit-transform: scale(0);
-        transform: scale(0);
-    }
-
-    100% {
-        -webkit-transform: scale(1);
-        transform: scale(1);
-        opacity: 0;
+        transform: rotate(360deg);
     }
 }
 </style>
