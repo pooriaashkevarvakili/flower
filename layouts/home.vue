@@ -43,7 +43,7 @@
                 </div>
             </div>
             <div
-                class="2xl:flex-row mt-5 xl:flex-row lg:flex-row 2xl:px-16 xl:px-16 2xl:ml-0 xl:ml-0 lg:ml-0 md:ml-32 sm:ml-32 4xl:ml-32 5xl:ml-32 xs:ml-32 lg:px-16    md:flex-col sm:flex-col 4xl:flex-col 5xl:flex-col xs:flex-col 2xl:flex 2xl:justify-between xl:flex xl:justify-between lg:flex lg:justify-between">
+                class="2xl:flex-row 2xl:space-y-0 xl:space-y-0 lg:space-y-0 sm:space-y-5 md:space-y-5 4xl:space-y-5 5xl:space-y-5 xs:space-y-5 mt-5 xl:flex-row lg:flex-row 2xl:px-16 xl:px-16 2xl:ml-0 xl:ml-0 lg:ml-0 md:ml-32 sm:ml-32 4xl:ml-32 5xl:ml-32 xs:ml-32 lg:px-16    md:flex-col sm:flex-col 4xl:flex-col 5xl:flex-col xs:flex-col 2xl:flex 2xl:justify-between xl:flex xl:justify-between lg:flex lg:justify-between">
 
                 <div class="mt-4">
                     <input style="direction:rtl" type="text"
