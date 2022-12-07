@@ -3,9 +3,9 @@
         <input id="my-drawer-3" type="checkbox" class="drawer-toggle" />
         <div class="drawer-content flex flex-col">
             <!-- Navbar -->
-            <div class="w-full 2xl:px-16 xl:px-16 lg:px-16 md:px-10 sm:px-10 4xl:px-6 5xl:px-6 xs:px-6  bg-base-300">
+            <div class="w-full 2xl:px-16 xl:px-16 lg:px-16 md:px-10 sm:px-10 4xl:px-6 5xl:px-6 xs:px-6  ">
                 <div class="flex-none lg:mt-0   lg:hidden">
-                    <label for="my-drawer-3" class="btn btn-square btn-ghost">
+                    <label for="my-drawer-3" class="btn hover:bg-blue-500 btn-square btn-ghost">
                         <svg xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 24 24"
                             class="inline-block   w-6 h-6 stroke-current">
                             <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2"
@@ -17,11 +17,11 @@
                 <div
                     class="2xl:flex xl:flex md:hidden sm:hidden 4xl:hidden 5xl:hidden xs:hidden items-center justify-center">
                     <ul class="menu menu-horizontal">
+
                         <li><nuxt-link to="/about">درباره ما</nuxt-link></li>
                         <div class="border border-black"></div>
                         <li><nuxt-link to="/contact">ارتباط با ما</nuxt-link></li>
                         <div class="border border-black"></div>
-                        <li><nuxt-link to="/flower">گل خانه ها</nuxt-link></li>
                         <div class="border border-black"></div>
                         <li><nuxt-link to="/shop">فروشگاه</nuxt-link></li>
                         <div class="border border-black"></div>
@@ -67,9 +67,15 @@
             <label for="my-drawer-3" class="drawer-overlay"></label>
             <ul style="direction:rtl" class="menu p-4 w-80 bg-base-100">
                 <!-- Sidebar content here -->
-                <li><nuxt-link to="/about">درباره ما</nuxt-link></li>
+                <label for="my-drawer-3" class="hover:text-red-500">
+                    <svg xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 24 24" stroke-width="1.5"
+                        stroke="currentColor" class="w-6  h-6">
+                        <path stroke-linecap="round" stroke-linejoin="round" d="M6 18L18 6M6 6l12 12" />
+                    </svg>
+                </label>
+
+                <li class="mt-5"><nuxt-link to="/about">درباره ما</nuxt-link></li>
                 <li><nuxt-link to="/contact">ارتباط با ما</nuxt-link></li>
-                <li><nuxt-link to="/flower">گل خانه ها</nuxt-link></li>
                 <li><nuxt-link to="/shop">فروشگاه</nuxt-link></li>
                 <li><nuxt-link to="/blog">بلاگ</nuxt-link></li>
                 <li><nuxt-link to="/home">خانه</nuxt-link></li>
