@@ -17,18 +17,13 @@
                 <div
                     class="2xl:flex xl:flex md:hidden sm:hidden 4xl:hidden 5xl:hidden xs:hidden items-center justify-center">
                     <ul class="menu menu-horizontal">
-
                         <li><nuxt-link to="/spinnerAbout">درباره ما</nuxt-link></li>
                         <div class="border border-black"></div>
                         <li><nuxt-link to="/spinnerContact">ارتباط با ما</nuxt-link></li>
                         <div class="border border-black"></div>
-                        <div class="border border-black"></div>
-                        <li><nuxt-link to="/spinnerShop">فروشگاه</nuxt-link></li>
-                        <div class="border border-black"></div>
                         <li><nuxt-link to="/spinnerBlog">بلاگ</nuxt-link></li>
                         <div class="border border-black"></div>
                         <li><nuxt-link to="/spinnerHome">خانه</nuxt-link></li>
-
                     </ul>
                 </div>
 
@@ -55,8 +50,10 @@
                 </div>
                 <div class="flex items-center justify-center">
 
-                    <nuxt-link to="/login">ورود/ثبت نام</nuxt-link>
-                    <img class="w-12 h-12" src="@/assets/img/asset 23.svg" alt="">
+                    <nuxt-link to="/spinnerLogin">ورود/ثبت نام</nuxt-link>
+                    <nuxt-link to="/spinnerCart">
+                        <img class="w-12 h-12" src="@/assets/img/asset 23.svg" alt="">
+                    </nuxt-link>
                 </div>
             </div>
             <!-- Page content here -->
@@ -73,15 +70,11 @@
                         <path stroke-linecap="round" stroke-linejoin="round" d="M6 18L18 6M6 6l12 12" />
                     </svg>
                 </label>
-
-                <li class="mt-5"><nuxt-link to="/about">درباره ما</nuxt-link></li>
-                <li><nuxt-link to="/contact">ارتباط با ما</nuxt-link></li>
-                <li><nuxt-link to="/shop">فروشگاه</nuxt-link></li>
-                <li><nuxt-link to="/blog">بلاگ</nuxt-link></li>
-                <li><nuxt-link to="/home">خانه</nuxt-link></li>
-
+                <li class="mt-5"><nuxt-link to="/spinnerAbout">درباره ما</nuxt-link></li>
+                <li><nuxt-link to="/spinnerContact">ارتباط با ما</nuxt-link></li>
+                <li><nuxt-link to="/spinnerBlog">بلاگ</nuxt-link></li>
+                <li><nuxt-link to="/spinnerHome">خانه</nuxt-link></li>
             </ul>
-
         </div>
     </div>
 </template>
