@@ -64,6 +64,9 @@
 definePageMeta({
     layout: 'home'
 })
+useHead({
+    title: "contact",
+});
 </script>
 
 <style>

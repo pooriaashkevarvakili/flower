@@ -6,6 +6,9 @@
 definePageMeta({
     layout: 'home'
 })
+useHead({
+    title: "cart",
+});
 </script>
 
 <style>

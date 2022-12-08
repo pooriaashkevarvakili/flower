@@ -15,6 +15,9 @@ import customerFlower from "../components/customerFlower.vue"
 definePageMeta({
     layout: 'home'
 })
+useHead({
+    title: "home",
+});
 </script>
 
 <style>

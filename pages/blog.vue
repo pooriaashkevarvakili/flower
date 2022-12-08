@@ -84,6 +84,9 @@
 definePageMeta({
     layout: 'home'
 })
+useHead({
+    title: "blog",
+});
 </script>
 
 <style>
