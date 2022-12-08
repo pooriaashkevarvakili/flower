@@ -18,16 +18,16 @@
                     class="2xl:flex xl:flex md:hidden sm:hidden 4xl:hidden 5xl:hidden xs:hidden items-center justify-center">
                     <ul class="menu menu-horizontal">
 
-                        <li><nuxt-link to="/about">درباره ما</nuxt-link></li>
+                        <li><nuxt-link to="/spinnerAbout">درباره ما</nuxt-link></li>
                         <div class="border border-black"></div>
-                        <li><nuxt-link to="/contact">ارتباط با ما</nuxt-link></li>
+                        <li><nuxt-link to="/spinnerContact">ارتباط با ما</nuxt-link></li>
                         <div class="border border-black"></div>
                         <div class="border border-black"></div>
-                        <li><nuxt-link to="/shop">فروشگاه</nuxt-link></li>
+                        <li><nuxt-link to="/spinnerShop">فروشگاه</nuxt-link></li>
                         <div class="border border-black"></div>
-                        <li><nuxt-link to="/blog">بلاگ</nuxt-link></li>
+                        <li><nuxt-link to="/spinnerBlog">بلاگ</nuxt-link></li>
                         <div class="border border-black"></div>
-                        <li><nuxt-link to="/home">خانه</nuxt-link></li>
+                        <li><nuxt-link to="/spinnerHome">خانه</nuxt-link></li>
 
                     </ul>
                 </div>
