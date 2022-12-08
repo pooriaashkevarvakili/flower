@@ -23,6 +23,10 @@
                         <div class="border border-black"></div>
                         <li><nuxt-link to="/spinnerBlog">بلاگ</nuxt-link></li>
                         <div class="border border-black"></div>
+                        <li><nuxt-link to="/spinnerDelivery">روش های تحویل</nuxt-link></li>
+                        <div class="border border-black"></div>
+                        <li><nuxt-link to="/spinnerFlowerHouses">گل خانه ها</nuxt-link></li>
+                        <div class="border border-black"></div>
                         <li><nuxt-link to="/spinnerHome">خانه</nuxt-link></li>
                     </ul>
                 </div>
@@ -72,6 +76,10 @@
                 </label>
                 <li class="mt-5"><nuxt-link to="/spinnerAbout">درباره ما</nuxt-link></li>
                 <li><nuxt-link to="/spinnerContact">ارتباط با ما</nuxt-link></li>
+                <li><nuxt-link to="/spinnerDelivery">روش های تحویل</nuxt-link></li>
+
+                <li><nuxt-link to="/spinnerFlowerHouses">گل خانه ها</nuxt-link></li>
+
                 <li><nuxt-link to="/spinnerBlog">بلاگ</nuxt-link></li>
                 <li><nuxt-link to="/spinnerHome">خانه</nuxt-link></li>
             </ul>

@@ -12,20 +12,22 @@
                     <img src="@/assets/img/facebook.svg" class="w-6 h-6" alt="">
                 </div>
             </div>
-            <div class="flex flex-col 2xl:ml-0 xl:ml-0 lg:ml-0 sm:ml-32 md:ml-32 4xl:ml-32 5xl:ml-32 xs:ml-32 ">
-                <span class="footer-title">دسته بندی ها</span>
-                <a class="link link-hover"> دسته گل</a>
-                <a class="link link-hover">گلدان</a>
-                <a class="link link-hover">سبد گل</a>
-                <a class="link link-hover"> گل مصنوعی</a>
+
+            <div class="flex flex-col 2xl:ml-0 xl:ml-0 lg:ml-0 sm:ml-32 md:ml-32 4xl:ml-32 5xl:ml-32 xs:ml-32">
+                <span class="footer-title">دسترسی</span>
+                <nuxt-link to="/spinnerHome" class="link link-hover">خانه</nuxt-link>
+                <nuxt-link to="/spinnerBlog" class="link link-hover">بلاک</nuxt-link>
+                <nuxt-link to="/spinnerFlowerHouses" class="link link-hover">گل خانه ها</nuxt-link>
+                <nuxt-link to="/spinnerContact" class="link link-hover"> ارتباط باما</nuxt-link>
+                <nuxt-link to="/spinnerDelivery" class="link link-hover"> روش های تحویل</nuxt-link>
             </div>
             <div class="flex flex-col 2xl:ml-0 xl:ml-0 lg:ml-0 sm:ml-32 md:ml-32 4xl:ml-32 5xl:ml-32 xs:ml-32">
                 <span class="footer-title">دسترسی</span>
-                <a class="link link-hover"> فروشگاه</a>
-                <a class="link link-hover">بلاک</a>
-                <a class="link link-hover">گل خانه ها</a>
-                <a class="link link-hover"> تماس باما</a>
-                <a class="link link-hover"> روش های تحویل</a>
+                <nuxt-link to="/spinnerHome" class="link link-hover">خانه</nuxt-link>
+                <nuxt-link to="/spinnerBlog" class="link link-hover">بلاک</nuxt-link>
+                <nuxt-link to="/spinnerFlowerHouses" class="link link-hover">گل خانه ها</nuxt-link>
+                <nuxt-link to="/spinnerContact" class="link link-hover"> ارتباط باما</nuxt-link>
+                <nuxt-link to="/spinnerDelivery" class="link link-hover"> روش های تحویل</nuxt-link>
             </div>
         </footer>
         <div style="direction:rtl" class="text-center">
