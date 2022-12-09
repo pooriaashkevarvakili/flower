@@ -34,7 +34,7 @@
             </div>
             <div class="bg-blue-200 mt-4 p-3">
                 <div
-                    class=" 2xl:flex-row xl:flex-row lg:flex-row 2xl:px-16 xl:px-16 2xl:ml-0 xl:ml-0 lg:ml-0 md:ml-32 sm:ml-32 4xl:ml-32 5xl:ml-32 xs:ml-32 lg:px-16    md:flex-col sm:flex-col 4xl:flex-col 5xl:flex-col xs:flex-col 2xl:flex 2xl:justify-between xl:flex xl:justify-between lg:flex lg:justify-between">
+                    class=" 2xl:flex-row xl:flex-row lg:flex-row 2xl:px-16 xl:px-16 2xl:ml-0 xl:ml-0 lg:ml-0 md:ml-40 sm:ml-32 4xl:ml-32 5xl:ml-32 xs:ml-32 lg:px-16    md:flex-col sm:flex-col 4xl:flex-col 5xl:flex-col xs:flex-col 2xl:flex 2xl:justify-between xl:flex xl:justify-between lg:flex lg:justify-between">
                     <div>تحویل رایگان سفارشات بالای 100 هزارتومان</div>
                     <div>یلدای شگفت انگیز 28 تا 30 آذر</div>
                     <div>پشتیبانی آنلاین ۲۴/۷
@@ -42,17 +42,18 @@
                 </div>
             </div>
             <div
-                class="2xl:flex-row 2xl:space-y-0 xl:space-y-0 lg:space-y-0 sm:space-y-5 md:space-y-5 4xl:space-y-5 5xl:space-y-5 xs:space-y-5 mt-5 xl:flex-row lg:flex-row 2xl:px-16 xl:px-16 2xl:ml-0 xl:ml-0 lg:ml-0 md:ml-32 sm:ml-32 4xl:ml-32 5xl:ml-32 xs:ml-32 lg:px-16    md:flex-col sm:flex-col 4xl:flex-col 5xl:flex-col xs:flex-col 2xl:flex 2xl:justify-between xl:flex xl:justify-between lg:flex lg:justify-between">
+                class="2xl:flex-row 2xl:space-y-0 xl:space-y-0 lg:space-y-0 sm:space-y-5 md:space-y-5 4xl:space-y-5 5xl:space-y-5 xs:space-y-5 mt-5 xl:flex-row lg:flex-row 2xl:px-20 xl:px-20 2xl:ml-0 xl:ml-0 lg:ml-0 md:ml-32 sm:ml-32 4xl:ml-32 5xl:ml-32 xs:ml-32 lg:px-16    md:flex-col sm:flex-col 4xl:flex-col 5xl:flex-col xs:flex-col 2xl:flex 2xl:justify-between xl:flex xl:justify-between lg:flex lg:justify-between">
 
                 <div class="mt-4">
                     <input style="direction:rtl" type="text"
-                        class="2xl:w-72 xl:w-72 lg:w-72 md:w-72 sm:w-80 4xl:w-64 5xl:w-64 xs:w-64 input py-6 border border-gray-300"
+                        class="2xl:w-72 xl:w-72 lg:w-72 md:w-72 sm:w-64 2xl:ml-0 xl:ml-0 lg:ml-0 md:ml-32 sm:ml-12  4xl:w-64 5xl:w-64 xs:w-64 input py-6 border border-gray-300"
                         placeholder="جستجو">
                 </div>
-                <div>
+                <div class="2xl:mr-10 xl:mr-10 lg:mr-10 md:ml-32 sm:ml-10">
                     <img src="@/assets/img/asset0.png" alt="">
                 </div>
-                <div class="flex items-center justify-center">
+                <div
+                    class="flex 2xl:mr-0 xr:ml-0 lg:mr-0 4xl:mr-24 5xl:mr-24 xs:mr-24 md:mr-24 sm:mr-36 items-center justify-center">
                     <nuxt-link to="/spinnerLogin">ورود/ثبت نام</nuxt-link>
                     <nuxt-link to="/spinnerCart">
                         <div class="indicator">

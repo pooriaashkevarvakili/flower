@@ -1,6 +1,6 @@
 <template>
     <div class="loader-wrapper flex flex-col items-center justify-center">
-        <div class="loader mt-60">
+        <div class="loader 2xl:mt-60 xl:mt-60 lg:mt-60 md:mt-96 sm:mt-96 4xl:mt-96 5xl:mt-96 xs:mt-96">
             <div></div>
             <div></div>
             <div></div>
