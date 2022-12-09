@@ -53,10 +53,13 @@
                     <img src="@/assets/img/asset0.png" alt="">
                 </div>
                 <div class="flex items-center justify-center">
-
                     <nuxt-link to="/spinnerLogin">ورود/ثبت نام</nuxt-link>
                     <nuxt-link to="/spinnerCart">
-                        <img class="w-12 h-12" src="@/assets/img/asset 23.svg" alt="">
+                        <div class="indicator">
+                            <span class="indicator-item badge badge-secondary">{{ count }}</span>
+                            <img class="w-12 h-12" src="@/assets/img/asset 23.svg" alt="">
+                        </div>
+
                     </nuxt-link>
                 </div>
             </div>
@@ -89,7 +92,9 @@
 
 <script setup>
 import Footer from "./footer.vue"
-
+import { useCart } from '../stores/cart'
+const cartStore = useCart()
+const count = computed(() => cartStore.count)
 </script>
 
 <style>
