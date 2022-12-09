@@ -89,6 +89,9 @@
 definePageMeta({
     layout: 'home'
 })
+useHead({
+    title: 'about'
+})
 </script>
 
 <style>

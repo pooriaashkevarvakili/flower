@@ -6,10 +6,21 @@
                 <div>ما رادنبال کنید</div>
                 <div>شبکه های اجتماعی</div>
                 <div class="flex space-x-2 mt-2">
-                    <img src="@/assets/img/instagram.svg" class="w-6 h-6" alt="">
-                    <img src="@/assets/img/telegram.svg" class="w-6 h-6" alt="">
-                    <img src="@/assets/img/twitter.svg" class="w-6 h-6" />
-                    <img src="@/assets/img/facebook.svg" class="w-6 h-6" alt="">
+                    <nuxt-link to="https://www.instagram.com/pooriaashkevarvakili">
+                        <img src="@/assets/img/instagram.svg" class="w-6 h-6" alt="">
+
+                    </nuxt-link>
+                    <nuxt-link to="https://web.telegram.org/@pooriaashkevarvakili/">
+                        <img src="@/assets/img/telegram.svg" class="w-6 h-6" alt="">
+
+                    </nuxt-link>
+                    <nuxt-link to="https://twitter.com/pooriavakili09">
+                        <img src="@/assets/img/twitter.svg" class="w-6 h-6" />
+                    </nuxt-link>
+                    <nuxt-link to="https://www.facebook.com/pooria.vakily.3">
+                        <img src="@/assets/img/facebook.svg" class="w-6 h-6" alt="">
+
+                    </nuxt-link>
                 </div>
             </div>
 
