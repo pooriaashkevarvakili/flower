@@ -2,10 +2,15 @@ import {
     defineStore
 } from "pinia"
 import Swal from "sweetalert2"
+
+function updateLocalStorage(cart) {
+    localStorage.setItem('cart', JSON.stringify(cart))
+}
 export const useCart = defineStore('cart', {
     state: () => {
         return {
-            cart: []
+            cart: localStorage.getItem('cart') ? JSON.parse(localStorage.getItem('cart')) : []
+
         }
     },
     getters: {
@@ -34,6 +39,7 @@ export const useCart = defineStore('cart', {
                 toast: true,
                 position: 'top'
             })
+            updateLocalStorage(this.cart)
         },
         addToCart(product) {
             const item = this.cart.find((p) => p.id == product.id)
@@ -54,9 +60,11 @@ export const useCart = defineStore('cart', {
                 toast: true,
                 position: 'top'
             })
+            updateLocalStorage(this.cart)
         },
         clear() {
             this.cart = []
+            updateLocalStorage(this.cart)
         },
         increment(id) {
             const item = this.cart.find((p) => p.id == id)
@@ -71,6 +79,7 @@ export const useCart = defineStore('cart', {
                     item.quantity--
                 }
             }
+            updateLocalStorage(this.cart)
         },
     }
 })
