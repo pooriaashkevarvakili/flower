@@ -21,7 +21,7 @@
           xs:w-72 xs:ml-8
           md:w-96
           sm:w-96
-          5xl:ml-3 5xl:w-96
+          5xl:ml-12 5xl:w-96
           4xl:ml-20
           2xl:ml-5xl:ml-5
           lg:ml-5
@@ -30,15 +30,23 @@
           shadow-xl">
                 <figure><img :src="item.img" :alt="item.name" /></figure>
                 <div class="card-body">
-                    <h2 class="card-title">{{ item.name }}</h2>
-                    <p>{{ item.price }}</p>
+                    <div class="flex justify-between">
+                        <div>
+                            <h2 class="card-title">{{ item.name }}</h2>
+
+                        </div>
+                        <div>
+                            <h2 class="text-base">{{ item.price }}</h2>
+                        </div>
+                    </div>
 
 
-                    <div>
+
+                    <div class="flex space-x-2">
                         <button @click="cartStore.increment(item.id)" class="btn btn-primary">+</button>
-                        <span class="ml-2">{{ item.quantity }}</span>
-                        <button @click="cartStore.decrement(item.id)" class="btn btn-primary ml-2">-</button>
-                        <div>{{ totalAmount }}</div>
+                        <span class=" mt-4">{{ item.quantity }}</span>
+                        <button @click="cartStore.decrement(item.id)" class="btn btn-primary ">-</button>
+                        <div class="mt-3">{{ totalAmount }}</div>
                     </div>
 
                     <div class="card-actions flex justify-between">

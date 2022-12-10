@@ -1,6 +1,6 @@
 <template>
     <div style="direction:rtl"
-        class="border mt-10 border-black 2xl:w-10/12 xl:w-10/12 lg:w-10/12 sm:w-8/12 md:w-8/12 4xl:w-8/12 5xl:w-8/12 xs:w-8/12 2xl:ml-36 xl:ml-36 lg:ml-36 sm:ml-20 md:ml-20 4xl:ml-20 5xl:ml-20 xs:ml-20 2xl:h-52 xl:h-52 lg:h-52 sm:h-11/12 md:h-11/12 4xl:h-11/12 5xl:h-11/12 xs:h-11/12">
+        class="border mt-10 border-black 2xl:w-10/12 xl:w-10/12 5xl:ml-32 lg:w-10/12 sm:w-8/12 md:w-8/12 4xl:w-8/12 5xl:w-8/12 xs:w-8/12 2xl:ml-36 xl:ml-36 lg:ml-36 sm:ml-24 md:ml-32 4xl:ml-32  2xl:h-52 xl:h-52 lg:h-52 sm:h-11/12 md:h-11/12 4xl:h-11/12 5xl:h-11/12 xs:h-11/12">
         <div class="2xl:flex  xl:flex lg:flex sm:block md:block 4xl:block 5xl:block xs:block justify-between">
             <div class="p-3">
                 <div

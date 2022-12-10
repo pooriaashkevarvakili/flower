@@ -5,7 +5,7 @@
             <!-- Navbar -->
             <div class="w-full 2xl:px-16 xl:px-16 lg:px-16 md:px-10 sm:px-10 4xl:px-6 5xl:px-6 xs:px-6  ">
                 <div class="flex-none lg:mt-0   lg:hidden">
-                    <label for="my-drawer-3" class="btn hover:bg-blue-500 btn-square btn-ghost">
+                    <label for="my-drawer-3" class="btn hover:bg-blue-500 hover:text-white btn-square btn-ghost">
                         <svg xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 24 24"
                             class="inline-block   w-6 h-6 stroke-current">
                             <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2"

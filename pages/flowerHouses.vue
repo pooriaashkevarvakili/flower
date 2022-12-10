@@ -1,8 +1,9 @@
 <template>
     <div>
         <div class="text-center mt-4">
-            <div>گل خانه ها</div>
-            <div style="direction:rtl" class="mt-4 text-sm text-gray-400">
+            <div class="2xl:mr-0 xl:mr-0 lg:mr-0">گل خانه ها</div>
+            <div style="direction:rtl"
+                class="mt-4 2xl:w-10/12 xl:w-10/12  sm:w-8/12 sm:ml-24 4xl:ml-32  5xl:ml-32 4xl:w-8/12 5xl:w-8/12 lg:w-10/12 md:w-8/12 2xl:mr-0 xl:mr-0 lg:mr-0 md:ml-32 text-sm text-gray-400">
                 لورم ایپسوم متن ساختگی با تولید سادگی نامفهوم از صنعت چاپ و با استفاده از طراحان گرافیک است. چاپگرها و
                 متون بلکه روزنامه و مجله در ستون و<br />
                 سطرآنچنان که لازم است و برای شرایط فعلی تکنولوژی مورد نیاز و کاربردهای متنوع با هدف بهبود ابزارهای
