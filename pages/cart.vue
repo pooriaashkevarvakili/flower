@@ -28,9 +28,9 @@
           md:ml-52
           sm:ml-32
           shadow-xl">
-                <figure><img :src="item.img" alt="Shoes" /></figure>
+                <figure><img :src="item.img" :alt="item.name" /></figure>
                 <div class="card-body">
-                    <h2 class="card-title">{{ item.title }}</h2>
+                    <h2 class="card-title">{{ item.name }}</h2>
                     <p>{{ item.price }}</p>
 
 
@@ -38,7 +38,9 @@
                         <button @click="cartStore.increment(item.id)" class="btn btn-primary">+</button>
                         <span class="ml-2">{{ item.quantity }}</span>
                         <button @click="cartStore.decrement(item.id)" class="btn btn-primary ml-2">-</button>
+                        <div>{{ totalAmount }}</div>
                     </div>
+
                     <div class="card-actions flex justify-between">
                         <button @click="cartStore.clear" class="btn btn-primary">clear</button>
                         <button @click="cartStore.remove(item.id)" class="btn btn-primary">remove</button>
@@ -60,7 +62,8 @@ useHead({
 });
 const cartStore = useCart()
 const allProducts = computed(() => cartStore.allProducts)
-
+const totalAmount = computed(() => cartStore.totalAmount)
+console.log(totalAmount);
 </script>
 
 <style>

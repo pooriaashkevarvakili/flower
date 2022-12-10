@@ -15,6 +15,11 @@ export const useCart = defineStore('cart', {
         count() {
             return this.cart.length
         },
+        totalAmount() {
+            return this.cart.reduce((total, p) => {
+                return total + p.price * p.quantity
+            }, 0)
+        }
 
     },
     actions: {

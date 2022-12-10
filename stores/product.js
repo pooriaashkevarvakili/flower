@@ -18,74 +18,74 @@ export const useProductStore = defineStore('counter', {
             product: [{
                     id: 1,
                     img: asset10,
-                    title: 'ویژه ولن تاین',
-                    price: '36/000'
+                    name: 'ویژه ولن تاین',
+                    price: 36000
                 },
                 {
                     id: 2,
                     img: asset9,
-                    title: 'گلدان 5',
-                    price: '16/000'
+                    name: 'گلدان 5',
+                    price: 16000
                 },
                 {
                     id: 3,
                     img: asset8,
-                    title: 'دسته گل 2',
-                    price: '50/000'
+                    name: 'دسته گل 2',
+                    price: 50000
                 },
                 {
                     id: 4,
                     img: asset7,
-                    title: 'سبدگل2',
-                    price: '130/000'
+                    name: 'سبدگل2',
+                    price: 130000
                 },
                 {
                     id: 5,
                     img: asset13,
-                    title: 'گلدان شیشه ای 3',
-                    price: '113/000'
+                    name: 'گلدان شیشه ای 3',
+                    price: 113000
                 },
                 {
                     id: 6,
                     img: asset7,
-                    title: 'سبدگل',
-                    price: '80/000'
+                    name: 'سبدگل',
+                    price: 80000
                 },
                 {
                     id: 7,
                     img: asset12,
-                    title: 'گلدان 4',
-                    price: '95/000'
+                    name: 'گلدان 4',
+                    price: 95000
                 },
                 {
                     id: 8,
                     img: asset11,
-                    title: 'دسته گل 1',
-                    price: '46/000'
+                    name: 'دسته گل 1',
+                    price: 46000
                 },
                 {
                     id: 9,
                     img: asset17,
-                    title: 'سبدپاییز',
-                    price: '50/000'
+                    name: 'سبدپاییز',
+                    price: 50000
                 },
                 {
                     id: 10,
                     img: asset16,
-                    title: 'هدیه ای عالی',
-                    price: '40/000',
+                    name: 'هدیه ای عالی',
+                    price: 40000,
                 },
                 {
                     id: 11,
                     img: asset15,
-                    title: 'گلدان شیشه ای',
-                    price: '115/000'
+                    name: 'گلدان شیشه ای',
+                    price: 115000
                 },
                 {
                     id: 12,
                     img: asset14,
-                    title: 'گلدان شیشه ای 2',
-                    price: '140/000'
+                    name: 'گلدان شیشه ای 2',
+                    price: 140000
                 }
             ]
         }
