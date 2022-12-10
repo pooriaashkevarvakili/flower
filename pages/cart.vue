@@ -44,6 +44,7 @@
                     <div class="card-actions flex justify-between">
                         <button @click="cartStore.clear" class="btn btn-primary">clear</button>
                         <button @click="cartStore.remove(item.id)" class="btn btn-primary">remove</button>
+                        <button @click="checkout" class="btn btn-primary">checkout</button>
                     </div>
                 </div>
             </div>
@@ -52,7 +53,7 @@
 </template>
 
 <script setup>
-
+import Swall from "sweetalert2"
 import { useCart } from "../stores/cart"
 definePageMeta({
     layout: 'home'
@@ -64,6 +65,20 @@ const cartStore = useCart()
 const allProducts = computed(() => cartStore.allProducts)
 const totalAmount = computed(() => cartStore.totalAmount)
 console.log(totalAmount);
+function checkout() {
+    Swall.fire({
+        title: 'خرید شما با موفقیت انجام شد',
+        showDenyButton: true,
+        showCancelButton: true,
+        confirmButtonText: 'Save',
+        denyButtonText: `exit`,
+    }).then((result) => {
+        /* Read more about isConfirmed, isDenied below */
+        if (result.isConfirmed) {
+            Swal.fire('Saved!', '', 'success')
+        }
+    })
+}
 </script>
 
 <style>
