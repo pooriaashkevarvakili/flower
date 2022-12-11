@@ -1,7 +1,7 @@
 <template>
     <div>
         <div
-            class="grid 2xl:grid-cols-2 2xl:mr-0 5xl:mr-48 xl:mr-0 lg:mr-0 sm:mr-56 4xl:mr-52 md:mr-72 xl:grid-cols-2 lg:grid-cols-2 sm:grid-cols-1 md:grid-cols-1 4xl:grid-cols-1 5xl:grid-cols-1 xs:grid-cols-1">
+            class="grid 2xl:grid-cols-2 2xl:mr-0 5xl:mr-36 xl:mr-0 lg:mr-0 sm:mr-56 4xl:mr-52 md:mr-72 xl:grid-cols-2 lg:grid-cols-2 sm:grid-cols-1 md:grid-cols-1 4xl:grid-cols-1 5xl:grid-cols-1 xs:grid-cols-1">
             <div>
                 <form style="direction:rtl" class="flex flex-col" action="">
 
@@ -23,7 +23,7 @@
                     <button class="btn btn-success text-white mt-4 w-52">ارسال</button>
                 </form>
             </div>
-            <div class="2xl:mr-0 xl:mr-0 5xl:ml-20 lg:mr-0 md:ml-52 sm:ml-10 4xl:ml-28" style="direction:rtl">
+            <div class="2xl:mr-0 xl:mr-0 5xl:ml-36 lg:mr-0 md:ml-52 sm:ml-10 4xl:ml-28" style="direction:rtl">
                 <div class="mt-24">
                     <div class="flex flex-col items-center justify-center">
                         <div>راه های تماس</div>

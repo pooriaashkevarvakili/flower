@@ -69,7 +69,7 @@ const router = useRouter();
 
 onMounted(() => {
     setTimeout(() => {
-        router.push('/cart')
+        router.push('/home')
     }, 2000)
 })
 </script>

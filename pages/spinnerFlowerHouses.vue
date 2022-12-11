@@ -69,7 +69,7 @@ const router = useRouter();
 
 onMounted(() => {
     setTimeout(() => {
-        router.push('/flowerHouses')
+        router.push('/flowerhouses')
     }, 2000)
 })
 </script>

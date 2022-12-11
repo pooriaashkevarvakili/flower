@@ -9,7 +9,7 @@ function updateLocalStorage(cart) {
 export const useCart = defineStore('cart', {
     state: () => {
         return {
-            cart: localStorage.getItem('cart') ? JSON.parse(localStorage.getItem('cart')) : []
+            cart: []
 
         }
     },
