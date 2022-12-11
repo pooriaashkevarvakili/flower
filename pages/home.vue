@@ -1,10 +1,9 @@
 <template>
     <div>
         <Slider />
-        <customerFlower />
         <NewFlower />
         <div
-            class="grid 2xl:grid-cols-4 xl:grid-cols-4 lg:grid-cols-4 md:grid-cols-1 sm:grid-cols-1 4xl:grid-cols-1 5xl:grid-cols-1 2xl:ml-40 xl:ml-40 lg:ml-40 md:ml-20 4xl:-ml-4 5xl:mr-20 p-24 gap-5">
+            class="grid 2xl:ml-20 4xl:mr-32 5xl:mr-10 sm:mr-36 xl:ml-20 lg:mr-0 md:mr-36 mt-5 2xl:grid-cols-4 xl:grid-cols-4 lg:grid-cols-4 md:grid-cols-1 sm:grid-cols-1 gap-3 4xl:grid-cols-1 5xl:grid-cols-1 xs:grid-cols-1">
             <div v-for="product in products" :key="product.id"
                 class="card 2xl:w-72 xl:w-72 lg:w-72 md:w-full sm:w-full 4xl=w-full 5xl:w-full xs:w-full  bg-base-100 shadow-xl">
                 <figure><img class="w-32 mt-3 rounded-xl" :src="product.img" :alt="product.name" /></figure>
@@ -18,7 +17,12 @@
                 </div>
             </div>
         </div>
-        <Brand />
+        <div class="mt-4">
+            <Brand />
+        </div>
+
+
+
     </div>
 </template>
 
