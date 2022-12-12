@@ -11,7 +11,7 @@
             <nuxt-link class="bg-black px-10 py-3 rounded-xl mt-5 text-white" to="/">خانه</nuxt-link>
         </div>
         <div v-else
-            class="grid 2xl:grid-cols-3 xl:grid-cols-3 md:grid-cols-1 4xl:grid-cols-1 lg:grid-cols-3 5xl:grid-cols-1 sm:grid-cols-1 xs:grid-cols-1">
+            class="grid 2xl:grid-cols-3 xl:grid-cols-2 md:grid-cols-1 4xl:grid-cols-1 lg:grid-cols-2 5xl:grid-cols-1 sm:grid-cols-1 xs:grid-cols-1">
             <div v-for="item in allProducts" :key="item.id" class="   card
           mt-10
         

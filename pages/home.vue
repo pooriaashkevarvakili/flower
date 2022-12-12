@@ -3,15 +3,28 @@
         <Slider />
         <NewFlower />
         <div
-            class="grid 2xl:ml-20 4xl:mr-32 5xl:mr-10 sm:mr-36 xl:ml-20 lg:mr-0 md:mr-36 mt-5 2xl:grid-cols-4 xl:grid-cols-4 lg:grid-cols-4 md:grid-cols-1 sm:grid-cols-1 gap-3 4xl:grid-cols-1 5xl:grid-cols-1 xs:grid-cols-1">
-            <div v-for="product in products" :key="product.id"
-                class="card 2xl:w-72 xl:w-72 lg:w-72 md:w-full sm:w-full 4xl=w-full 5xl:w-full xs:w-full  bg-base-100 shadow-xl">
+            class="grid 2xl:grid-cols-3 xl:grid-cols-3 md:grid-cols-1 4xl:grid-cols-1 lg:grid-cols-3 5xl:grid-cols-1 sm:grid-cols-1 xs:grid-cols-1">
+            <div v-for="product in products" :key="product.id" class="card   mt-10
+        
+        2xl:w-72
+        xl:w-72
+        lg:w-72
+        xs:w-72 xs:ml-8
+        md:w-96
+        sm:w-96
+        5xl:ml-12 5xl:w-96
+        4xl:ml-20
+        2xl:ml-20 xl:ml-20
+        lg:ml-5
+        md:ml-52
+        sm:ml-32
+        shadow-xl  bg-base-100 ">
                 <figure><img class="w-32 mt-3 rounded-xl" :src="product.img" :alt="product.name" /></figure>
                 <div class="card-body">
                     <h2 class="card-title flex items-center justify-center">{{ product.name }}</h2>
                     <div class="flex items-center justify-center">{{ product.price }}</div>
-                    <div class="card-actions ">
-                        <button @click="cartStore.addToCart(product)" class="btn w-full btn-primary">افزودن به
+                    <div class="card-actions flex items-center justify-center">
+                        <button @click="cartStore.addToCart(product)" class="btn w-52  btn-primary">افزودن به
                             سبدخرید</button>
                     </div>
                 </div>
