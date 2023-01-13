@@ -73,7 +73,7 @@
       >
         <div class="text-white text-3xl">ما متناسب با سلیقه شما</div>
         <div class="text-white text-3xl">طراحی وگل آرایی می کنیم</div>
-        <div class="bg-blue-200 mt-5 w-8/12 h-64">
+        <div class="bg-blue-200 dark:bg-black mt-5 w-8/12 h-64">
           <div
             class="
               flex

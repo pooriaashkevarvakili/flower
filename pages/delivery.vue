@@ -2,8 +2,8 @@
   <div>
     <div class="border border-gray-900 mt-4 mx-52" />
     <div class="text-center">
-      <div class="mt-4">روش های تحویل</div>
-      <div>حمل و نقل و تحویل</div>
+      <div class="mt-4 dark:text-white">روش های تحویل</div>
+      <div class="dark:text-white">حمل و نقل و تحویل</div>
       <div
         class="
           mt-3
@@ -20,6 +20,7 @@
           xl:w-11/12
           lg:w-11/12
           text-gray-400 text-sm
+          dark:text-white
         "
         style="direction: rtl"
       >
@@ -89,6 +90,7 @@
               4xl:mr-64
               5xl:mr-48
               xs:mr-40
+              dark:text-white
             "
           >
             پیک در تهران
@@ -110,6 +112,7 @@
               lg:w-11/12
               text-gray-400 text-sm
               mr-2
+              dark:text-white
             "
           >
             لورم ایپسوم متن ساختگی با تولید سادگی نامفهوم از صنعت چاپ و با
@@ -178,6 +181,7 @@
               4xl:mr-52
               5xl:mr-36
               xs:mr-36
+              dark:text-white
             "
           >
             پست به شهرستان ها
@@ -200,6 +204,7 @@
               lg:w-full
               text-gray-400 text-sm
               mr-2
+              dark:text-white
             "
           >
             لورم ایپسوم متن ساختگی با تولید سادگی نامفهوم از صنعت چاپ و با
@@ -268,6 +273,7 @@
               4xl:mr-44
               5xl:mr-36
               xs:mr-32
+              dark:text-white
             "
           >
             تحویل و پرداخت درب منزل
@@ -290,6 +296,7 @@
               lg:w-full
               text-gray-400 text-sm
               mr-2
+              dark:text-white
             "
           >
             لورم ایپسوم متن ساختگی با تولید سادگی نامفهوم از صنعت چاپ و با

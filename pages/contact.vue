@@ -21,7 +21,7 @@
     >
       <div>
         <form style="direction: rtl" class="flex flex-col" action="">
-          <label for="">نام</label>
+          <label class="dark:text-white" for="">نام</label>
           <input
             class="
               border border-gray-300
@@ -38,7 +38,7 @@
             "
             type="text"
           />
-          <label class="mt-4" for="">پست الکترونیکی</label>
+          <label class="mt-4 dark:text-white" for="">پست الکترونیکی</label>
           <input
             class="
               border
@@ -56,7 +56,7 @@
             "
             type="text"
           />
-          <label class="mt-4" for="">موضوع</label>
+          <label class="mt-4 dark:text-white" for="">موضوع</label>
           <input
             class="
               border
@@ -74,7 +74,7 @@
             "
             type="text"
           />
-          <label for="">پیغام</label>
+          <label class="dark:text-white" for="">پیغام</label>
           <textarea
             type="text"
             class="
@@ -102,14 +102,14 @@
       >
         <div class="mt-24">
           <div class="flex flex-col items-center justify-center">
-            <div>راه های تماس</div>
+            <div class="dark:text-white">راه های تماس</div>
           </div>
           <div class="flex flex-row items-center justify-center mt-4">
             <img class="w-10 h-10" src="@/assets/img/location.svg" alt="" />
 
             <div>
-              <div class="mr-2">آدرس گلخانه</div>
-              <div class="mr-2">تهران شهرک غرب ...</div>
+              <div class="mr-2 dark:text-white">آدرس گلخانه</div>
+              <div class="mr-2 dark:text-white">تهران شهرک غرب ...</div>
             </div>
           </div>
           <hr
@@ -127,8 +127,8 @@
             <img class="w-10 h-10" src="@/assets/img/tel.svg" alt="" />
 
             <div>
-              <div class="mr-2">شماره های تماس</div>
-              <div class="mr-2">021-12345678</div>
+              <div class="mr-2 dark:text-white">شماره های تماس</div>
+              <div class="mr-2 dark:text-white">021-12345678</div>
             </div>
           </div>
           <hr
@@ -146,8 +146,8 @@
             <img class="w-10 h-10" src="@/assets/img/post.svg" alt="" />
 
             <div>
-              <div class="mr-2">ایمیل</div>
-              <div class="mr-2">pooriavakili09@gmail.com</div>
+              <div class="mr-2 dark:text-white">ایمیل</div>
+              <div class="mr-2 dark:text-white">pooriavakili09@gmail.com</div>
             </div>
           </div>
           <hr

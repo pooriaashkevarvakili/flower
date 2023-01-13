@@ -4,6 +4,7 @@
       <div
         class="
           text-xl
+          dark:text-white
           2xl:mr-0
           5xl:mr-8
           lg:mr-0
@@ -25,6 +26,7 @@
           sm:mr-32
           4xl:mr-32
           xl:mr-0
+          dark:text-white
           md:mr-32
         "
       >
@@ -49,6 +51,7 @@
           md:mr-48
           mt-4
           text-gray-400
+          dark:text-white
         "
       >
         لورم ایپسوم متن ساختگی با تولید سادگی نامفهوم از صنعت چاپ و با استفاده
@@ -83,16 +86,16 @@
       "
     >
       <div class="flex flex-col items-center justify-center">
-        <div class="text-2xl">120</div>
-        <div class="text-2xl">محصولات جدید</div>
+        <div class="text-2xl dark:text-white">120</div>
+        <div class="text-2xl dark:text-white">محصولات جدید</div>
       </div>
       <div class="flex flex-col items-center justify-center">
-        <div class="text-2xl">98%</div>
-        <div class="text-2xl">رضایت مشتری</div>
+        <div class="text-2xl dark:text-white">98%</div>
+        <div class="text-2xl dark:text-white">رضایت مشتری</div>
       </div>
       <div class="flex flex-col items-center justify-center">
-        <div class="text-2xl">15</div>
-        <div class="text-2xl">مختصص</div>
+        <div class="text-2xl dark:text-white">15</div>
+        <div class="text-2xl dark:text-white">مختصص</div>
       </div>
     </div>
     <hr
@@ -127,7 +130,7 @@
         justify-center
       "
     >
-      <div class="mt-4 text-2xl">درباره فروشگاه</div>
+      <div class="mt-4 text-2xl dark:text-white">درباره فروشگاه</div>
     </div>
     <div
       class="
@@ -152,15 +155,15 @@
     >
       <div class="flex flex-col items-center justify-center">
         <img class="w-16 h-16" src="@/assets/img/pc.svg" />
-        <div class="mt-3">برای انتخابی راحت</div>
+        <div class="mt-3 dark:text-white">برای انتخابی راحت</div>
       </div>
       <div class="flex flex-col items-center justify-center">
         <img class="w-16 h-16" src="@/assets/img/car.svg" />
-        <div class="mt-3">تحویل به تمام نقاط کشور</div>
+        <div class="mt-3 dark:text-white">تحویل به تمام نقاط کشور</div>
       </div>
       <div class="flex flex-col items-center justify-center">
         <img class="w-16 h-16" src="@/assets/img/star.svg" />
-        <div class="mt-3">بالاترین کیفیت محصولات</div>
+        <div class="mt-3 dark:text-white">بالاترین کیفیت محصولات</div>
       </div>
     </div>
     <hr
@@ -197,7 +200,7 @@
         mt-4
       "
     >
-      <div class="text-2xl">تیم ما</div>
+      <div class="text-2xl dark:text-white">تیم ما</div>
     </div>
     <div
       class="
@@ -221,16 +224,24 @@
       "
     >
       <div>
-        <div class="flex items-center justify-center">رضادانایی</div>
+        <div class="flex items-center justify-center dark:text-white">
+          رضادانایی
+        </div>
       </div>
       <div>
-        <div class="flex items-center justify-center">زهرا رستگار</div>
+        <div class="flex items-center justify-center dark:text-white">
+          زهرا رستگار
+        </div>
       </div>
       <div>
-        <div class="flex items-center justify-center">حسین ارجمند</div>
+        <div class="flex items-center justify-center dark:text-white">
+          حسین ارجمند
+        </div>
       </div>
       <div>
-        <div class="flex items-center justify-center">فرشید یاوری</div>
+        <div class="flex items-center justify-center dark:text-white">
+          فرشید یاوری
+        </div>
       </div>
     </div>
   </div>

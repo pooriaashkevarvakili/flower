@@ -6,7 +6,7 @@
       <div></div>
       <div></div>
     </div>
-    <div class="text-xl mt-3">به سایت گل خوش اومدید</div>
+    <div class="text-xl mt-3 dark:text-white">به سایت گل خوش اومدید</div>
   </div>
 </template>
   

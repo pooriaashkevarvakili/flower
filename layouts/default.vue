@@ -1,5 +1,5 @@
 <template>
-  <div class="dark:black">
+  <div class="dark:bg-black">
     <div class="overflow-x-hidden">
       <div class="drawer drawer-end">
         <input id="my-drawer-3" type="checkbox" class="drawer-toggle" />
@@ -30,6 +30,45 @@
                 lg:hidden
               "
             >
+              <button
+                class="mt-2"
+                @click="
+                  setColorTheme(
+                    $colorMode.preference == 'dark' ? 'light' : 'dark'
+                  )
+                "
+              >
+                <svg
+                  v-if="$colorMode.value == 'dark'"
+                  xmlns="http://www.w3.org/2000/svg"
+                  fill="none"
+                  viewBox="0 0 24 24"
+                  stroke-width="1.5"
+                  stroke="currentColor"
+                  class="w-6 h-6 text-black dark:text-white"
+                >
+                  <path
+                    stroke-linecap="round"
+                    stroke-linejoin="round"
+                    d="M21.752 15.002A9.718 9.718 0 0118 15.75c-5.385 0-9.75-4.365-9.75-9.75 0-1.33.266-2.597.748-3.752A9.753 9.753 0 003 11.25C3 16.635 7.365 21 12.75 21a9.753 9.753 0 009.002-5.998z"
+                  />
+                </svg>
+                <svg
+                  v-else
+                  xmlns="http://www.w3.org/2000/svg"
+                  fill="none"
+                  viewBox="0 0 24 24"
+                  stroke-width="1.5"
+                  stroke="currentColor"
+                  class="w-6 h-6"
+                >
+                  <path
+                    stroke-linecap="round"
+                    stroke-linejoin="round"
+                    d="M12 3v2.25m6.364.386l-1.591 1.591M21 12h-2.25m-.386 6.364l-1.591-1.591M12 18.75V21m-4.773-4.227l-1.591 1.591M5.25 12H3m4.227-4.773L5.636 5.636M15.75 12a3.75 3.75 0 11-7.5 0 3.75 3.75 0 017.5 0z"
+                  />
+                </svg>
+              </button>
               <label
                 for="my-drawer-3"
                 class="
@@ -43,7 +82,7 @@
                   xmlns="http://www.w3.org/2000/svg"
                   fill="none"
                   viewBox="0 0 24 24"
-                  class="inline-block w-6 h-6 stroke-current"
+                  class="inline-block w-6 h-6 stroke-current dark:text-white"
                 >
                   <path
                     stroke-linecap="round"
@@ -72,52 +111,98 @@
               <div>
                 <ul class="menu menu-horizontal">
                   <li>
-                    <nuxt-link class="text-black" to="/spinnerAbout"
+                    <nuxt-link
+                      class="text-black dark:text-white"
+                      to="/spinnerAbout"
                       >درباره ما</nuxt-link
                     >
                   </li>
-                  <div class="border border-black"></div>
+                  <div class="border border-black dark:border-orange-400"></div>
                   <li>
-                    <nuxt-link class="text-black" to="/spinnerContact"
+                    <nuxt-link
+                      class="text-black dark:text-white"
+                      to="/spinnerContact"
                       >ارتباط با ما</nuxt-link
                     >
                   </li>
-                  <div class="border border-black"></div>
+                  <div class="border border-black dark:border-orange-400"></div>
                   <li>
-                    <nuxt-link class="text-black" to="/spinnerBlog"
+                    <nuxt-link
+                      class="text-black dark:text-white"
+                      to="/spinnerBlog"
                       >بلاگ</nuxt-link
                     >
                   </li>
-                  <div class="border border-black"></div>
+                  <div class="border border-black dark:border-orange-400"></div>
                   <li>
-                    <nuxt-link class="text-black" to="/spinnerDelivery"
+                    <nuxt-link
+                      class="text-black dark:text-white"
+                      to="/spinnerDelivery"
                       >روش های تحویل</nuxt-link
                     >
                   </li>
-                  <div class="border border-black"></div>
+                  <div class="border border-black dark:border-orange-400"></div>
                   <li>
-                    <nuxt-link class="text-black" to="/spinnerFlowerHouses"
+                    <nuxt-link
+                      class="text-black dark:text-white"
+                      to="/spinnerFlowerHouses"
                       >گل خانه ها</nuxt-link
                     >
                   </li>
-                  <div class="border border-black"></div>
-                  <li><nuxt-link to="/spinnerHome">خانه</nuxt-link></li>
+                  <div class="border border-black dark:border-orange-400"></div>
+                  <li>
+                    <nuxt-link
+                      class="text-black dark:text-white"
+                      to="/spinnerHome"
+                      >خانه</nuxt-link
+                    >
+                  </li>
                 </ul>
               </div>
               <div>
                 <button
+                  class="mt-2"
                   @click="
                     setColorTheme(
                       $colorMode.preference == 'dark' ? 'light' : 'dark'
                     )
                   "
                 >
-                  dark
+                  <svg
+                    v-if="$colorMode.value == 'dark'"
+                    xmlns="http://www.w3.org/2000/svg"
+                    fill="none"
+                    viewBox="0 0 24 24"
+                    stroke-width="1.5"
+                    stroke="currentColor"
+                    class="w-6 h-6 text-black dark:text-white"
+                  >
+                    <path
+                      stroke-linecap="round"
+                      stroke-linejoin="round"
+                      d="M21.752 15.002A9.718 9.718 0 0118 15.75c-5.385 0-9.75-4.365-9.75-9.75 0-1.33.266-2.597.748-3.752A9.753 9.753 0 003 11.25C3 16.635 7.365 21 12.75 21a9.753 9.753 0 009.002-5.998z"
+                    />
+                  </svg>
+                  <svg
+                    v-else
+                    xmlns="http://www.w3.org/2000/svg"
+                    fill="none"
+                    viewBox="0 0 24 24"
+                    stroke-width="1.5"
+                    stroke="currentColor"
+                    class="w-6 h-6"
+                  >
+                    <path
+                      stroke-linecap="round"
+                      stroke-linejoin="round"
+                      d="M12 3v2.25m6.364.386l-1.591 1.591M21 12h-2.25m-.386 6.364l-1.591-1.591M12 18.75V21m-4.773-4.227l-1.591 1.591M5.25 12H3m4.227-4.773L5.636 5.636M15.75 12a3.75 3.75 0 11-7.5 0 3.75 3.75 0 017.5 0z"
+                    />
+                  </svg>
                 </button>
               </div>
             </div>
           </div>
-          <div class="bg-blue-200 mt-4 p-3">
+          <div class="bg-blue-200 dark:bg-black mt-4 p-3">
             <div
               class="
                 2xl:flex-row
@@ -144,9 +229,9 @@
                 lg:flex lg:justify-between
               "
             >
-              <div>تحویل رایگان</div>
-              <div>یلدا 28 تا 30 آذر</div>
-              <div>پشتیبانی آنلاین ۲۴/۷</div>
+              <div class="dark:text-white">تحویل رایگان</div>
+              <div class="dark:text-white">یلدا 28 تا 30 آذر</div>
+              <div class="dark:text-white">پشتیبانی آنلاین ۲۴/۷</div>
             </div>
           </div>
           <div
@@ -208,8 +293,22 @@
                 placeholder="جستجو"
               />
             </div>
-            <div class="2xl:mr-10 xl:mr-10 lg:mr-10 md:ml-12 sm:ml-2">
-              <img src="@/assets/img/asset0.png" alt="" />
+            <div
+              class="
+                dark:text-white
+                2xl:mr-36
+                xl:mr-36
+                lg:mr-36
+                2xl:ml-0
+                xl:ml-0
+                lg:ml-0
+                md:ml-36
+                sm:ml-24
+                4xl:ml-24
+                5xl:ml-20
+              "
+            >
+              گل فیروزه
             </div>
             <div
               class="
@@ -226,17 +325,35 @@
                 justify-center
               "
             >
-              <nuxt-link to="/spinnerLogin">ورود/ثبت نام</nuxt-link>
+              <nuxt-link class="dark:text-white" to="/spinnerLogin"
+                >ورود/ثبت نام</nuxt-link
+              >
               <nuxt-link to="/spinnerCart">
                 <div class="indicator">
-                  <span class="indicator-item badge badge-secondary">{{
-                    count
-                  }}</span>
-                  <img
-                    class="w-12 h-12"
-                    src="../assets/img/asset23.svg"
-                    alt=""
-                  />
+                  <span
+                    class="
+                      indicator-item
+                      badge badge-secondary
+                      dark:badge-ghost
+                      text-xl
+                      dark:text-white
+                    "
+                    >{{ count }}</span
+                  >
+                  <svg
+                    xmlns="http://www.w3.org/2000/svg"
+                    fill="none"
+                    viewBox="0 0 24 24"
+                    stroke-width="1.5"
+                    stroke="currentColor"
+                    class="w-12 h-12 dark:text-white"
+                  >
+                    <path
+                      stroke-linecap="round"
+                      stroke-linejoin="round"
+                      d="M2.25 3h1.386c.51 0 .955.343 1.087.835l.383 1.437M7.5 14.25a3 3 0 00-3 3h15.75m-12.75-3h11.218c1.121-2.3 2.1-4.684 2.924-7.138a60.114 60.114 0 00-16.536-1.84M7.5 14.25L5.106 5.272M6 20.25a.75.75 0 11-1.5 0 .75.75 0 011.5 0zm12.75 0a.75.75 0 11-1.5 0 .75.75 0 011.5 0z"
+                    />
+                  </svg>
                 </div>
               </nuxt-link>
             </div>
@@ -247,34 +364,99 @@
         </div>
         <div class="drawer-side">
           <label for="my-drawer-3" class="drawer-overlay"></label>
-          <ul style="direction: rtl" class="menu p-4 w-80 bg-base-100">
+          <ul
+            style="direction: rtl"
+            class="menu p-4 w-80 bg-base-100 dark:bg-black"
+          >
             <!-- Sidebar content here -->
-            <label for="my-drawer-3" class="hover:text-red-500 text-black">
-              <svg
-                xmlns="http://www.w3.org/2000/svg"
-                fill="none"
-                viewBox="0 0 24 24"
-                stroke-width="1.5"
-                stroke="currentColor"
-                class="w-6 h-6"
-              >
-                <path
-                  stroke-linecap="round"
-                  stroke-linejoin="round"
-                  d="M6 18L18 6M6 6l12 12"
-                />
-              </svg>
+            <label for="my-drawer-3" class="text-black">
+              <div class="flex">
+                <svg
+                  xmlns="http://www.w3.org/2000/svg"
+                  fill="none"
+                  viewBox="0 0 24 24"
+                  stroke-width="1.5"
+                  stroke="currentColor"
+                  class="w-6 h-6 hover:text-red-500 dark:text-white"
+                >
+                  <path
+                    stroke-linecap="round"
+                    stroke-linejoin="round"
+                    d="M6 18L18 6M6 6l12 12"
+                  />
+                </svg>
+                <button
+                  @click="
+                    setColorTheme(
+                      $colorMode.preference == 'dark' ? 'light' : 'dark'
+                    )
+                  "
+                >
+                  <svg
+                    v-if="$colorMode.value == 'dark'"
+                    xmlns="http://www.w3.org/2000/svg"
+                    fill="none"
+                    viewBox="0 0 24 24"
+                    stroke-width="1.5"
+                    stroke="currentColor"
+                    class="w-6 h-6 dark:text-white"
+                  >
+                    <path
+                      stroke-linecap="round"
+                      stroke-linejoin="round"
+                      d="M21.752 15.002A9.718 9.718 0 0118 15.75c-5.385 0-9.75-4.365-9.75-9.75 0-1.33.266-2.597.748-3.752A9.753 9.753 0 003 11.25C3 16.635 7.365 21 12.75 21a9.753 9.753 0 009.002-5.998z"
+                    />
+                  </svg>
+                  <svg
+                    v-else
+                    xmlns="http://www.w3.org/2000/svg"
+                    fill="none"
+                    viewBox="0 0 24 24"
+                    stroke-width="1.5"
+                    stroke="currentColor"
+                    class="w-6 h-6"
+                  >
+                    <path
+                      stroke-linecap="round"
+                      stroke-linejoin="round"
+                      d="M12 3v2.25m6.364.386l-1.591 1.591M21 12h-2.25m-.386 6.364l-1.591-1.591M12 18.75V21m-4.773-4.227l-1.591 1.591M5.25 12H3m4.227-4.773L5.636 5.636M15.75 12a3.75 3.75 0 11-7.5 0 3.75 3.75 0 017.5 0z"
+                    />
+                  </svg>
+                </button>
+              </div>
             </label>
             <li class="mt-5">
-              <nuxt-link to="/spinnerAbout">درباره ما</nuxt-link>
+              <nuxt-link class="dark:text-white" to="/spinnerAbout"
+                >درباره ما</nuxt-link
+              >
             </li>
-            <li><nuxt-link to="/spinnerContact">ارتباط با ما</nuxt-link></li>
-            <li><nuxt-link to="/spinnerDelivery">روش های تحویل</nuxt-link></li>
+            <li>
+              <nuxt-link class="dark:text-white" to="/spinnerContact"
+                >ارتباط با ما</nuxt-link
+              >
+            </li>
+            <li>
+              <nuxt-link class="dark:text-white" to="/spinnerDelivery"
+                >روش های تحویل</nuxt-link
+              >
+            </li>
 
-            <li><nuxt-link to="/spinnerFlowerHouses">گل خانه ها</nuxt-link></li>
+            <li>
+              <nuxt-link class="dark:text-white" to="/spinnerFlowerHouses"
+                >گل خانه ها</nuxt-link
+              >
+            </li>
 
-            <li><nuxt-link to="/spinnerBlog">بلاگ</nuxt-link></li>
-            <li><nuxt-link to="/spinnerHome">خانه</nuxt-link></li>
+            <li>
+              <nuxt-link class="dark:text-white" to="/spinnerBlog"
+                >بلاگ</nuxt-link
+              >
+            </li>
+            <li>
+              <nuxt-link class="dark:text-white" to="/spinnerHome"
+                >خانه</nuxt-link
+              >
+            </li>
           </ul>
         </div>
       </div>

@@ -10,7 +10,7 @@
         viewBox="0 0 24 24"
         stroke-width="1.5"
         stroke="currentColor"
-        class="w-16 h-16"
+        class="w-16 h-16 dark:text-white"
       >
         <path
           stroke-linecap="round"
@@ -19,7 +19,7 @@
         />
       </svg>
 
-      <span class="text-2xl"> cart Empty </span>
+      <span class="text-2xl dark:text-white"> cart Empty </span>
       <nuxt-link class="bg-black px-10 py-3 rounded-xl mt-5 text-white" to="/"
         >خانه</nuxt-link
       >
@@ -58,16 +58,17 @@
           md:ml-52
           sm:ml-32
           shadow-xl
+          dark:bg-gray-400
         "
       >
         <figure><img :src="item.img" :alt="item.name" /></figure>
         <div class="card-body">
           <div class="flex justify-between">
             <div>
-              <h2 class="card-title">{{ item.name }}</h2>
+              <h2 class="card-title dark:text-white">{{ item.name }}</h2>
             </div>
             <div>
-              <h2 class="text-base">{{ item.price }}</h2>
+              <h2 class="text-base dark:text-white">{{ item.price }}</h2>
             </div>
           </div>
 
@@ -78,14 +79,14 @@
             >
               +
             </button>
-            <span class="mt-4">{{ item.quantity }}</span>
+            <span class="mt-4 dark:text-white">{{ item.quantity }}</span>
             <button
               @click="cartStore.decrement(item.id)"
               class="btn btn-primary"
             >
               -
             </button>
-            <div class="mt-3">{{ totalAmount }}</div>
+            <div class="mt-3 dark:text-white">{{ totalAmount }}</div>
           </div>
 
           <div class="card-actions flex justify-between">

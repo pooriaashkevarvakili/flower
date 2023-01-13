@@ -36,6 +36,7 @@
           sm:ml-32
           shadow-xl
           bg-base-100
+          dark:bg-gray-400
         "
       >
         <figure>
@@ -46,16 +47,26 @@
           />
         </figure>
         <div class="card-body">
-          <h2 class="card-title flex items-center justify-center">
+          <h2
+            class="card-title dark:text-white flex items-center justify-center"
+          >
             {{ product.name }}
           </h2>
-          <div class="flex items-center justify-center">
+          <div class="flex dark:text-white items-center justify-center">
             {{ product.price }}
           </div>
-          <div class="card-actions flex items-center justify-center">
+          <div
+            class="
+              card-actions
+              dark:text-white
+              flex
+              items-center
+              justify-center
+            "
+          >
             <button
               @click="cartStore.addToCart(product)"
-              class="btn w-52 btn-primary"
+              class="btn w-52 btn-primary dark:glass"
             >
               افزودن به سبدخرید
             </button>

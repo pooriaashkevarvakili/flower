@@ -19,15 +19,15 @@
       "
     >
       <div class="flex ml-52 flex-col">
-        <div>نوشته های اخیر</div>
+        <div class="dark:text-white">نوشته های اخیر</div>
         <div class="mt-3" style="border: 1px solid #000; width: 110px"></div>
-        <div class="-ml-16 mt-4">نگهداری از گل های حساس</div>
-        <div class="mt-4 ml-8">دوازده آذر97</div>
-        <div class="-ml-10 mt-4">طراحی های ویژه ولنتاین</div>
-        <div class="mt-4 ml-8">دوازده آذر97</div>
-        <div class="ml-4">دسته بندی ها​​​​​​​</div>
+        <div class="-ml-16 mt-4 dark:text-white">نگهداری از گل های حساس</div>
+        <div class="mt-4 ml-8 dark:text-white">دوازده آذر97</div>
+        <div class="-ml-10 mt-4 dark:text-white">طراحی های ویژه ولنتاین</div>
+        <div class="mt-4 ml-8 dark:text-white">دوازده آذر97</div>
+        <div class="ml-4 dark:text-white">دسته بندی ها​​​​​​​</div>
         <div class="mt-3" style="border: 1px solid #000; width: 110px"></div>
-        <div class="mt-4 ml-12">مقالات(۲)</div>
+        <div class="mt-4 ml-12 dark:text-white">مقالات(۲)</div>
       </div>
       <div style="direction: rtl">
         <div
@@ -46,7 +46,7 @@
             md:mt-4
           "
         >
-          <div>نگهداری از گلهای حساس</div>
+          <div class="dark:text-white">نگهداری از گلهای حساس</div>
         </div>
         <div
           class="
@@ -67,7 +67,7 @@
             viewBox="0 0 24 24"
             stroke-width="1.5"
             stroke="currentColor"
-            class="w-6 h-6"
+            class="w-6 h-6 dark:text-white"
           >
             <path
               stroke-linecap="round"
@@ -75,7 +75,7 @@
               d="M6.75 3v2.25M17.25 3v2.25M3 18.75V7.5a2.25 2.25 0 012.25-2.25h13.5A2.25 2.25 0 0121 7.5v11.25m-18 0A2.25 2.25 0 005.25 21h13.5A2.25 2.25 0 0021 18.75m-18 0v-7.5A2.25 2.25 0 015.25 9h13.5A2.25 2.25 0 0121 11.25v7.5"
             />
           </svg>
-          <div>۱۲ آذر ۹۷</div>
+          <div class="dark:text-white">۱۲ آذر ۹۷</div>
           <div class="mr-3 flex">
             <svg
               xmlns="http://www.w3.org/2000/svg"
@@ -83,7 +83,7 @@
               viewBox="0 0 24 24"
               stroke-width="1.5"
               stroke="currentColor"
-              class="w-6 h-6"
+              class="w-6 h-6 dark:text-white"
             >
               <path
                 stroke-linecap="round"
@@ -92,7 +92,7 @@
               />
             </svg>
 
-            <div class="">مقالات</div>
+            <div class="dark:text-white">مقالات</div>
           </div>
         </div>
         <div
@@ -114,6 +114,7 @@
             m
             text-sm
             mt-2
+            dark:text-white
           "
         >
           لورم ایپسوم متن ساختگی با تولید سادگی نامفهوم از صنعت چاپ و با استفاده
@@ -150,7 +151,7 @@
             mt-4
           "
         >
-          <div>طراحی های ویژه ولن تاین</div>
+          <div class="dark:text-white">طراحی های ویژه ولن تاین</div>
         </div>
         <div
           class="
@@ -171,7 +172,7 @@
             viewBox="0 0 24 24"
             stroke-width="1.5"
             stroke="currentColor"
-            class="w-6 h-6"
+            class="w-6 h-6 dark:text-white"
           >
             <path
               stroke-linecap="round"
@@ -179,7 +180,7 @@
               d="M6.75 3v2.25M17.25 3v2.25M3 18.75V7.5a2.25 2.25 0 012.25-2.25h13.5A2.25 2.25 0 0121 7.5v11.25m-18 0A2.25 2.25 0 005.25 21h13.5A2.25 2.25 0 0021 18.75m-18 0v-7.5A2.25 2.25 0 015.25 9h13.5A2.25 2.25 0 0121 11.25v7.5"
             />
           </svg>
-          <div>۱۲ آذر ۹۷</div>
+          <div class="dark:text-white">۱۲ آذر ۹۷</div>
           <div class="mr-3 flex">
             <svg
               xmlns="http://www.w3.org/2000/svg"
@@ -187,7 +188,7 @@
               viewBox="0 0 24 24"
               stroke-width="1.5"
               stroke="currentColor"
-              class="w-6 h-6"
+              class="w-6 h-6 dark:text-white"
             >
               <path
                 stroke-linecap="round"
@@ -196,7 +197,7 @@
               />
             </svg>
 
-            <div>مقالات</div>
+            <div class="dark:text-white">مقالات</div>
           </div>
         </div>
         <div
@@ -216,6 +217,7 @@
             md:w-7/12
             text-sm
             mt-2
+            dark:text-white
           "
         >
           لورم ایپسوم متن ساختگی با تولید سادگی نامفهوم از صنعت چاپ و با استفاده

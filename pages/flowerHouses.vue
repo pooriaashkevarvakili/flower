@@ -1,7 +1,7 @@
 <template>
   <div>
     <div class="text-center mt-4">
-      <div class="2xl:mr-0 xl:mr-0 lg:mr-0">گل خانه ها</div>
+      <div class="2xl:mr-0 dark:text-white xl:mr-0 lg:mr-0">گل خانه ها</div>
       <div
         style="direction: rtl"
         class="
@@ -20,6 +20,7 @@
           lg:mr-0
           md:ml-12
           text-sm text-gray-400
+          dark:text-white
         "
       >
         لورم ایپسوم متن ساختگی با تولید سادگی نامفهوم از صنعت چاپ و با استفاده
