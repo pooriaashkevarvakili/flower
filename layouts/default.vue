@@ -318,7 +318,7 @@
               <nuxt-link class="dark:text-white" to="/spinnerLogin"
                 >ورود/ثبت نام</nuxt-link
               >
-              <nuxt-link to="/spinnerCart">
+              <nuxt-link to="/cart">
                 <div class="indicator">
                   <span
                     class="
