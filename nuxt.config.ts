@@ -8,7 +8,6 @@ export default defineNuxtConfig({
         cssPath: "~/assets/tailwind.css",
         configPath: "tailwind.config.js",
         exposeConfig: false,
-        config: {},
         injectPosition: 0,
         viewer: true
     },

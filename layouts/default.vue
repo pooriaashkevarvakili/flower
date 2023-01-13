@@ -111,33 +111,25 @@
               <div>
                 <ul class="menu menu-horizontal">
                   <li>
-                    <nuxt-link
-                      class="text-black dark:text-white"
-                      to="/spinnerAbout"
+                    <nuxt-link class="text-black dark:text-white" to="/about"
                       >درباره ما</nuxt-link
                     >
                   </li>
                   <div class="border border-black dark:border-orange-400"></div>
                   <li>
-                    <nuxt-link
-                      class="text-black dark:text-white"
-                      to="/spinnerContact"
+                    <nuxt-link class="text-black dark:text-white" to="/contact"
                       >ارتباط با ما</nuxt-link
                     >
                   </li>
                   <div class="border border-black dark:border-orange-400"></div>
                   <li>
-                    <nuxt-link
-                      class="text-black dark:text-white"
-                      to="/spinnerBlog"
+                    <nuxt-link class="text-black dark:text-white" to="/blog"
                       >بلاگ</nuxt-link
                     >
                   </li>
                   <div class="border border-black dark:border-orange-400"></div>
                   <li>
-                    <nuxt-link
-                      class="text-black dark:text-white"
-                      to="/spinnerDelivery"
+                    <nuxt-link class="text-black dark:text-white" to="/delivery"
                       >روش های تحویل</nuxt-link
                     >
                   </li>
@@ -426,17 +418,17 @@
               </div>
             </label>
             <li class="mt-5">
-              <nuxt-link class="dark:text-white" to="/spinnerAbout"
+              <nuxt-link class="dark:text-white" to="/about"
                 >درباره ما</nuxt-link
               >
             </li>
             <li>
-              <nuxt-link class="dark:text-white" to="/spinnerContact"
+              <nuxt-link class="dark:text-white" to="/contact"
                 >ارتباط با ما</nuxt-link
               >
             </li>
             <li>
-              <nuxt-link class="dark:text-white" to="/spinnerDelivery"
+              <nuxt-link class="dark:text-white" to="/delivery"
                 >روش های تحویل</nuxt-link
               >
             </li>
@@ -448,9 +440,7 @@
             </li>
 
             <li>
-              <nuxt-link class="dark:text-white" to="/spinnerBlog"
-                >بلاگ</nuxt-link
-              >
+              <nuxt-link class="dark:text-white" to="/blog">بلاگ</nuxt-link>
             </li>
             <li>
               <nuxt-link class="dark:text-white" to="/spinnerHome"
