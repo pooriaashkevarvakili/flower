@@ -137,15 +137,13 @@
                   <li>
                     <nuxt-link
                       class="text-black dark:text-white"
-                      to="/spinnerFlowerHouses"
+                      to="/flowerHouses"
                       >گل خانه ها</nuxt-link
                     >
                   </li>
                   <div class="border border-black dark:border-orange-400"></div>
                   <li>
-                    <nuxt-link
-                      class="text-black dark:text-white"
-                      to="/spinnerHome"
+                    <nuxt-link class="text-black dark:text-white" to="/"
                       >خانه</nuxt-link
                     >
                   </li>
@@ -434,7 +432,7 @@
             </li>
 
             <li>
-              <nuxt-link class="dark:text-white" to="/spinnerFlowerHouses"
+              <nuxt-link class="dark:text-white" to="/flowerHouses"
                 >گل خانه ها</nuxt-link
               >
             </li>
@@ -443,9 +441,7 @@
               <nuxt-link class="dark:text-white" to="/blog">بلاگ</nuxt-link>
             </li>
             <li>
-              <nuxt-link class="dark:text-white" to="/spinnerHome"
-                >خانه</nuxt-link
-              >
+              <nuxt-link class="dark:text-white" to="/">خانه</nuxt-link>
             </li>
           </ul>
         </div>
