@@ -168,24 +168,19 @@
         "
       >
         <span class="dark:text-white">دسترسی</span>
-        <nuxt-link to="/spinnerHome" class="link link-hover dark:text-white"
+        <nuxt-link to="/" class="link link-hover dark:text-white"
           >خانه</nuxt-link
         >
-        <nuxt-link to="/spinnerBlog" class="link link-hover dark:text-white"
-          >بلاک</nuxt-link
+        <nuxt-link to="/blog" class="link link-hover dark:text-white"
+          >بلاگ</nuxt-link
         >
-        <nuxt-link
-          to="/spinnerFlowerHouses"
-          class="link link-hover dark:text-white"
+        <nuxt-link to="/flowerHouses" class="link link-hover dark:text-white"
           >گل خانه ها</nuxt-link
         >
-        <nuxt-link to="/spinnerContact" class="link link-hover dark:text-white">
+        <nuxt-link to="/contact" class="link link-hover dark:text-white">
           ارتباط باما</nuxt-link
         >
-        <nuxt-link
-          to="/spinnerDelivery"
-          class="link link-hover dark:text-white"
-        >
+        <nuxt-link to="/delivery" class="link link-hover dark:text-white">
           روش های تحویل</nuxt-link
         >
       </div>
@@ -203,24 +198,19 @@
         "
       >
         <span class="dark:text-white">دسترسی</span>
-        <nuxt-link to="/spinnerHome" class="link link-hover dark:text-white"
+        <nuxt-link to="/" class="link link-hover dark:text-white"
           >خانه</nuxt-link
         >
-        <nuxt-link to="/spinnerBlog" class="link link-hover dark:text-white"
-          >بلاک</nuxt-link
+        <nuxt-link to="/blog" class="link link-hover dark:text-white"
+          >بلاگ</nuxt-link
         >
-        <nuxt-link
-          to="/spinnerFlowerHouses"
-          class="link dark:text-white link-hover"
+        <nuxt-link to="/flowerHouses" class="link dark:text-white link-hover"
           >گل خانه ها</nuxt-link
         >
-        <nuxt-link to="/spinnerContact" class="link dark:text-white link-hover">
+        <nuxt-link to="/contact" class="link dark:text-white link-hover">
           ارتباط باما</nuxt-link
         >
-        <nuxt-link
-          to="/spinnerDelivery"
-          class="link dark:text-white link-hover"
-        >
+        <nuxt-link to="/delivery" class="link dark:text-white link-hover">
           روش های تحویل</nuxt-link
         >
       </div>
