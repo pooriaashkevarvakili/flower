@@ -177,6 +177,9 @@
         <nuxt-link to="/flowerHouses" class="link link-hover dark:text-white"
           >گل خانه ها</nuxt-link
         >
+        <nuxt-link to="/about" class="link dark:text-white link-hover">
+          درباره ما</nuxt-link
+        >
         <nuxt-link to="/contact" class="link link-hover dark:text-white">
           ارتباط باما</nuxt-link
         >
@@ -209,6 +212,9 @@
         >
         <nuxt-link to="/contact" class="link dark:text-white link-hover">
           ارتباط باما</nuxt-link
+        >
+        <nuxt-link to="/about" class="link dark:text-white link-hover">
+          درباره ما</nuxt-link
         >
         <nuxt-link to="/delivery" class="link dark:text-white link-hover">
           روش های تحویل</nuxt-link
