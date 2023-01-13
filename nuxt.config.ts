@@ -1,6 +1,17 @@
 // https://nuxt.com/docs/api/configuration/nuxt-config
 export default defineNuxtConfig({
     css: ['@/assets/iransans.css'],
+    colorMode: {
+        classSuffix: ''
+    },
+    tailwindcss: {
+        cssPath: "~/assets/tailwind.css",
+        configPath: "tailwind.config.js",
+        exposeConfig: false,
+        config: {},
+        injectPosition: 0,
+        viewer: true
+    },
     app: {
         head: {
             charset: 'utf-16',
@@ -12,7 +23,7 @@ export default defineNuxtConfig({
             ],
         }
     },
-    modules: ['@nuxtjs/tailwindcss', '@pinia/nuxt'],
+    modules: ['@nuxtjs/tailwindcss', '@pinia/nuxt', '@nuxtjs/color-mode'],
     nitro: {
         prerender: {
             crawlLinks: true
