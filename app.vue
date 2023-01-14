@@ -71,9 +71,8 @@ import { useRouter } from "vue-router";
 const router = useRouter();
 const loading = ref(false);
 onMounted(() => {
-  loading.value = true;
   setTimeout(() => {
-    router.push("/");
-  }, 2000);
+    loading.value = true;
+  }, 3000);
 });
 </script>
