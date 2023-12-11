@@ -118,7 +118,7 @@ function login() {
     username.value == "pooriavakili09@gmail.com" &&
     password.value == "13711373n"
   )
-    router.push("/spinnerHome");
+    router.push("/");
 }
 </script>
 
